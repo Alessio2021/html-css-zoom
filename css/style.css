@@ -31,6 +31,11 @@ html {
     margin: 0.3em;
     border: 0 solid rgb(74,74,74);
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-header:hover{
+    opacity: 80%;
 }
 
             /* /header */
@@ -58,6 +63,10 @@ main{
     background-color: rgba(74,74,74, 0.7);
     color: white;
     padding: 0.5em;
+}
+
+.container:hover  .img-main{
+    cursor: grab;
 }
 
             /* footer */
@@ -99,7 +108,9 @@ main{
     align-items: center;
     height: 100%;
     color: white;
-    margin: 0 0.5em;
+    padding: 0 0.5em;
+    border-radius: 7px;
+    transition:0.5s;
 }
 
 .icon-footer {
@@ -118,7 +129,11 @@ main{
 }
 
 .arrow-size {
-    font-size: 0.5em;
+    font-size: 0.6em;
+    padding: 0.6em;
+    border-radius: 4px;
+    transition:0.5s;
+
 }
 
 .arrow {
@@ -132,5 +147,16 @@ main{
 .red {
     color: red;
 }
+
+.btn-footer:hover {
+    cursor: pointer;
+    background-color: rgba(61, 60, 60, 0.534);
+}
+
+.arrow-size:hover {
+    cursor: pointer;
+    background-color: rgb(77, 75, 75);
+}
+
 
             /* /footer */
