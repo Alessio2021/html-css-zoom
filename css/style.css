@@ -35,10 +35,14 @@ html {
 }
 
 .btn-header:hover{
-    opacity: 80%;
+    background-color: rgb(104, 103, 103);
+
 }
 
             /* /header */
+
+
+                /* main */
 
 main{
     background-color: black;
@@ -55,6 +59,7 @@ main{
     position: relative;
     display: flex;
     margin: 0.3em;
+    transition: 0.7s;
 }
 .text-img{
     position: absolute;
@@ -68,6 +73,12 @@ main{
 .container:hover  .img-main{
     cursor: grab;
 }
+.img-main:hover {
+    transform: scale(105%);
+    opacity: 70%;
+}
+
+            /* /main */
 
             /* footer */
 
