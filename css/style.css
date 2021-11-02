@@ -46,11 +46,12 @@ html {
 
 main{
     background-color: black;
+    height: calc(100% - 140px);
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 3.5em 0;
